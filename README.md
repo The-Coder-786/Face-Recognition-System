@@ -1,4 +1,4 @@
-@'
+
 # Face Recognition System
 
 A real-time Face Recognition and Attendance Management System developed using React, FastAPI, OpenCV, InsightFace and ONNX Runtime.
