@@ -1,0 +1,52 @@
+﻿# ==============================
+# Python
+# ==============================
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+
+# ==============================
+# React / Node
+# ==============================
+frontend/node_modules/
+node_modules/
+dist/
+.vite/
+
+# ==============================
+# IDE / Operating System
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# PRIVATE FACE DATA
+# Do not upload biometric data
+# ==============================
+dataset/train/
+dataset/processed/
+dataset/test/
+dataset/unknown_test/
+
+models/face_model.pkl
+models/people.json
+models/backups/
+
+# ==============================
+# Attendance / personal data
+# ==============================
+attendance/*.csv
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.log
